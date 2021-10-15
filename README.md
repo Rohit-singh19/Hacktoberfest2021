@@ -11,7 +11,7 @@
 
 ### This repository is open to all members of the GitHub community. Any member can contribute to this project! :grin:
 
-:point_right: Repo Link : [https://github.com/kishanrajput23/Hacktoberfest_2021](https://github.com/kishanrajput23/Hacktoberfest_2021)
+:point_right: Repo Link : [https://github.com/Rohit-singh19/Hacktoberfest2021](https://github.com/Rohit-singh19/Hacktoberfest2021)
 
 ## What is Hacktoberfest? :thinking:
 A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
@@ -31,9 +31,9 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 ### 1. Fork it :fork_and_knife:
 
-You can get your own fork/copy of [HacktoberFest_2021](https://github.com/Opensourcecontri/Hacktoberfest-2021) by using the <a href="https://github.com/Opensourcecontri/Hacktoberfest-2021/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/Opensourcecontri/Hacktoberfest-2021/new/master?readme=1#fork-destination-box) at top-right of your screen.
+You can get your own fork/copy of [HacktoberFest2021](https://github.com/Opensourcecontri/Hacktoberfest2021) by using the <a href="https://github.com/Opensourcecontri/Hacktoberfest2021/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/Opensourcecontri/Hacktoberfest2021/new/master?readme=1#fork-destination-box) at top-right of your screen.
 
- [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/Opensourcecontri/Hacktoberfest-2021)
+ [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/Opensourcecontri/Hacktoberfest2021)
 
 
 ### 2. Clone it :busts_in_silhouette:
@@ -43,16 +43,16 @@ You can get your own fork/copy of [HacktoberFest_2021](https://github.com/Openso
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Hacktoberfest_2021.git
+$ git clone https://github.com/Your_Username/Hacktoberfest2021.git
 ```
 
 > This makes a local copy of the repository in your machine.
 
-Once you have cloned the `Hacktoberfest_2021` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
+Once you have cloned the `Hacktoberfest2021` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
 
 ```sh
-# This will change directory to a folder Hacktoberfest_2021
-$ cd Hacktoberfest_2021
+# This will change directory to a folder Hacktoberfest2021
+$ cd Hacktoberfest2021
 ```
 
 Move to this folder for all other commands.
@@ -63,14 +63,14 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
-origin  https://github.com/Your_Username/Hacktoberfest_2021.git (push)
+origin  https://github.com/Your_Username/Hacktoberfest2021.git (fetch)
+origin  https://github.com/Your_Username/Hacktoberfest2021.git (push)
 ```
 
-Now, let's add a reference to the original [Hacktoberfest_2021](https://github.com/kishanrajput23/Hacktoberfest_2021/) repository using
+Now, let's add a reference to the original [Hacktoberfest2021](https://github.com/Rohit-singh19/Hacktoberfest2021/) repository using
 
 ```sh
-$ git remote add upstream https://github.com/kishanrajput23/Hacktoberfest_2021.git
+$ git remote add upstream https://github.com/Rohit-singh19/Hacktoberfest2021.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -79,18 +79,18 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2021.git (push)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2021.git (fetch)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2021.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest2021.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest2021.git (push)
+upstream  https://github.com/Remote_Username/Hacktoberfest2021.git (fetch)
+upstream  https://github.com/Remote_Username/Hacktoberfest2021.git (push)
 ```
 `In your case, you will see`
 ```sh
 $ git remote -V
-origin    https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2021.git (push)
-upstream  https://github.com/Opensourcecontri/Hacktoberfest_2021.git (fetch)
-upstream  https://github.com/Opensourcecontri/Hacktoberfest_2021.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest2021.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest2021.git (push)
+upstream  https://github.com/Opensourcecontri/Hacktoberfest2021.git (fetch)
+upstream  https://github.com/Opensourcecontri/Hacktoberfest2021.git (push)
 ```
 
 ### 4. Sync it :recycle:
@@ -108,13 +108,13 @@ $ git checkout main
 # Reset local `main` branch to match the `upstream` repository's `main` branch
 $ git reset --hard upstream/main
 
-# Push changes to your forked `Hacktoberfest-2021` repo
+# Push changes to your forked `Hacktoberfest2021` repo
 $ git push origin main
 ```
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/kishanrajput23/Hacktoberfest_2021/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/Rohit-singh19/Hacktoberfest2021/pulls).
 
 ### 6. Create a new branch :bangbang:
 
@@ -159,8 +159,8 @@ Finally, go to your repository in the browser and click on `compare and pull req
 Then add a title and description to your pull request that explains your precious effort.
 
 ## Awesome contributors :star_struck:
-<a href="https://github.com/kishanrajput23/Hacktoberfest_2021/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=kishanrajput23/Hacktoberfest_2021" />
+<a href="https://github.com/Rohit-singh19/Hacktoberfest2021/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Rohit-singh19/Hacktoberfest2021" />
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).
